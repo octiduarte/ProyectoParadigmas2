@@ -1,0 +1,103 @@
+.header_div_a {
+    text-decoration: none;
+    font-size: xxx-large;
+    color: black;
+    font-weight: bold;
+}
+
+.header {
+    display: flex;
+    font-family: 'Roboto Mono', monospace;
+    justify-content: space-around;
+
+}
+
+.nav_div_a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+}
+.nav_div_a_modo{
+    border-radius: 20px;
+    background-color: #dd356e;
+    padding: 10px;
+    color: white;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+}
+
+.div_a_home {
+    border-bottom: 1px solid #dd356e;
+    ;
+    padding-bottom: 5px;
+}
+
+.hr_estilo {
+    width: 75%;
+}
+
+.nav_div_a-hover:hover {
+    border-radius: 20px;
+    background-color: #dd356e;
+    padding: 10px;
+    transition: 0.5s;
+    color: azure;
+}
+
+.main_div_h1 {
+    font-family: 'Inconsolata', monospace;
+    text-decoration: none;
+    font-size: 3em;
+
+}
+
+.main_div_h4 {
+    font-family: 'Inconsolata', monospace;
+    text-decoration: none;
+    font-size: 1em;
+
+}
+
+.main_div {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 28em;
+    flex-direction: column;
+    padding-left: 13em;
+    padding-right: 13em;
+}
+
+.main_div_a {
+    font-family: 'Inconsolata', monospace;
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    border-radius: 40px;
+    padding: 1.5em;
+    padding-left: 2em;
+    padding-right: 2em;
+    font-size: 18px;
+}
+
+.main_div_a_pink {
+    background-color: #dd356e;
+    color: rgb(255, 255, 255);
+    
+}
+
+.main_div_a_yellow {
+    background-color: #fee856;
+    color: black;
+}
+
+.main_div_a-hover:hover{
+    transform: translate(5px, -5px);
+  /* Añadimos una sombra debajo del elemento */
+  box-shadow: 4px 6px 10px gray;
+  transition: 0.1s;
+}
